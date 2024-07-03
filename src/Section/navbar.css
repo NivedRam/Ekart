@@ -1,0 +1,13 @@
+/* styles.css */
+
+/* Default styles */
+.lorem-navbar-strip {
+  display: flex;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 600px) {
+  .lorem-navbar-strip {
+    display: none; /* Show the middle Lorem Ipsum section on small screens */
+  }
+}
